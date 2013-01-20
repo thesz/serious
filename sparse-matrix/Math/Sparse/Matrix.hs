@@ -9,7 +9,8 @@ module Math.Sparse.Matrix(
           SM
         , empty
         , singleton
-        , (.+)
+        , (.+), (.-), (.*)
+        , spMMV
         ) where
 
 import Data.List (sortBy)
